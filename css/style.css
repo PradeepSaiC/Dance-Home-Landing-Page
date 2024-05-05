@@ -15,7 +15,7 @@ body{
 .navbar-container .navbar{
     display: flex;
     justify-content: space-between;
-    height:10vh;
+    height:8vh;
     align-items: center;
     overflow-x: auto;
     width:100vw;
@@ -30,7 +30,7 @@ body{
     justify-content: space-between;
     list-style-type: none;
     gap:50px;
-    font-size:1.2rem;
+    font-size:1.1rem;
     align-items: center;
     color:#868686;
     margin-right: 20px;
@@ -40,7 +40,7 @@ body{
 }
 .navbar .list-items .list-item:nth-child(2){
     color:#000;
-    font-size:1.6rem;
+    font-size:1.2rem;
 }
 .line{
     position: absolute;
@@ -78,7 +78,7 @@ body{
 .right-container{
     display:flex;
     position:relative;
-    width: 60vw;
+    width: 64vw;
 }
 .heading{
     position: absolute;
@@ -87,7 +87,7 @@ body{
 }
 .heading h1{
     font-family: "Merriweather";
-    font-size: 8rem;
+    font-size: 7.3rem;
     color:#333;
     font-weight: 900;
 }
@@ -133,8 +133,8 @@ body{
     border: none;
     font-weight: normal;
     cursor: pointer;
-    font-size:1.4rem;
-    padding:17px 60px;
+    font-size:1.2rem;
+    padding:13px 60px;
 }
 .social-icons{
     position: absolute;
@@ -142,12 +142,12 @@ body{
     right:0px;
     top:0px;
     flex-direction: column;
-    gap:39px;
+    gap:34px;
     margin-right:80px;
     margin-top: 20px;
 }
 .social-icons img{
-    width:33px;
+    width:30px;
     cursor: pointer;
     
 }
@@ -155,7 +155,7 @@ body{
 /*------------------- bottom-section --------------- */
 .bottom-container{
     position: absolute;
-    top:340px;
+    top:360px;
     left:100px;
 }
 .bottom-container ul
@@ -166,7 +166,7 @@ body{
     justify-content: center;
 }
 .bottom-container ul li{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color:#868686;
     display:flex;
     align-items: center;
@@ -190,7 +190,7 @@ body{
     color:#333;
 }
 .bottom-container .line-dot{
-    height: 120%;
+    height: 110%;
     width:1.55px;
     background-color: #868686;
     position:absolute;
@@ -199,8 +199,8 @@ body{
 }
 .bottom-quote{
     position: absolute;
-    left:360px;
-    top:330px;
+    left:330px;
+    top:305px;
 }
 .bottom-quote p{
     font-size:1.1rem;
@@ -210,7 +210,7 @@ body{
 }
 .image{
     width:410px;
-    height: 270px;
+    height: 250px;
 }
 .image img{
     object-position: top;
@@ -220,12 +220,12 @@ body{
 }
 .quote-icon .fa-quote-right{
     color:#333;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .arrow{
     position: absolute;
     right:-140px;
-    bottom:70px;
+    bottom:10px;
 }
 .arrow img{
     width:60px;
